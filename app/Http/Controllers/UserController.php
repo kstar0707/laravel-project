@@ -10,6 +10,12 @@ use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
+    public function boot()
+    {
+        if(config('app.env') === 'production') {
+            \URL::forceScheme('https');
+        }
+    }
     /**
      * Display a listing of the resource.
      */
