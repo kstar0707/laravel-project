@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class BlockList extends Model
+{
+    use HasFactory;
+
+    protected $table = 'block_list';
+
+    protected $fillable = [
+        'blocked_by',
+        'blocked_user_id'
+    ];
+}
