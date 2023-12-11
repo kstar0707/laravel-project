@@ -615,7 +615,7 @@ class CustomerController extends Controller
             WHERE user_id = ?", array($req));
 
         $review_type = "0";
-        $m_count = DB::select('SELECT COUNT(id) as matching_count FROM likes_list where (sent_user_id = ?) and status <> 0', array($req,$req));
+        $m_count = DB::select('SELECT COUNT(id) as matching_count FROM likes_list where (sent_user_id = ?) and status <> 0', array($req));
 
         if($m_count[0]->matching_count >= 5 && $m_count[0]->matching_count < 10)
         {
