@@ -24,6 +24,8 @@
                             <a href="/residence">居住地</a>
                         </li>
                         <li>
+
+
                             <a href="/community">コミュニティ</a>
                         </li>
                         <li>
