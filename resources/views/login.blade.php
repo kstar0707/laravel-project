@@ -9,8 +9,7 @@
 	<meta name="author" content="Hau Nguyen">
 	<meta name="keywords" content="au theme template">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    {{-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> --}}
-
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<!-- Title Page-->
 	<title>Login</title>
 
@@ -73,7 +72,7 @@
 	</div>
 
 	<!-- Jquery JS-->
-	<script src="<?= asset("vendor/jquery-3.2.1.min.js") ?>"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<!-- Bootstrap JS-->
 	<script src="<?= asset("vendor/bootstrap-4.1/popper.min.js") ?>"></script>
 	<script src="<?= asset("vendor/bootstrap-4.1/bootstrap.min.js") ?>"></script>

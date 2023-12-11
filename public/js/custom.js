@@ -1275,6 +1275,7 @@
         // {
         //     return;
         // }
+        console.log("Hello world")
         $.ajax({
             url: "/login_action",
             type: "POST",

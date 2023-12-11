@@ -7,6 +7,8 @@ function loginBtn()
     // {
     //     return;
     // }
+    console.log("123123123");
+
     $.ajax({
         url: "/login_action",
         type: "POST",
