@@ -168,7 +168,7 @@ function updateCustomer(CustomerID){
                 $('#identity').val(result['identity_state']);
             }
 
-            $('#preview-selected-image').attr('src', "http://192.168.144.21:8000/uploads/"+result['photo1']);
+            $('#preview-selected-image').attr('src', "https://greemeapp.azurewebsites.net/uploads/"+result['photo1']);
             $('#uid').val(result['id']);
             $('#edittype').val("1");
             $('#editModal').modal('show');
