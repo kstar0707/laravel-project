@@ -9,7 +9,7 @@
 	<meta name="author" content="Hau Nguyen">
 	<meta name="keywords" content="au theme template">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    {{-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> --}}
 	<!-- Title Page-->
 	<title>Login</title>
 
